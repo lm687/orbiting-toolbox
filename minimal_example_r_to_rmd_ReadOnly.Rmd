@@ -1,0 +1,27 @@
+---
+title: "Example of converting R to Rmd"
+author: "Author Name"
+date: "2019"
+output:
+    html_document:
+        number_sections: true
+        theme: simplex
+        toc: true
+        toc_float: true
+---
+
+This file has been created from the R script with the same name
+
+
+This is an example of how to create an Rmd file from an R file
+
+
+## Some title
+
+### Some other title
+
+
+```{r}
+x <- rnorm(100)
+plot(x)
+```
