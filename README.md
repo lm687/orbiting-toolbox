@@ -1,3 +1,3 @@
 Misc scripts
 
-![moon](more/moon.png ""))
+![moon](more/moon.png "")
