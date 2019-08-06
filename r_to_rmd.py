@@ -59,7 +59,7 @@ with open(rfile) as f_rfile:
 				if len(line.strip("#<begin_chunk>").strip("\n")) > 1:
 					rmdfile.write("{}\n".format(line.strip("#<begin_chunk>").strip("\n")))
 				else:
-					rmdfile.write("```{r, cache=TRUE}\n")
+					rmdfile.write("```{r, cache=FALSE}\n")
 			elif "#<begin_omit>" in line:
 				within_omit = True
 			elif "#<end_chunk>" in line:
